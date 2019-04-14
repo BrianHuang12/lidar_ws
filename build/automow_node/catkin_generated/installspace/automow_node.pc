@@ -1,0 +1,8 @@
+prefix=/home/odroid/lidar_ws/install
+
+Name: automow_node
+Description: Description of automow_node
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/odroid/lidar_ws/install/lib 
+Requires: 

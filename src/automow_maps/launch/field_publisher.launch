@@ -1,0 +1,11 @@
+<launch>
+	<arg name="field_file"
+		 default="$(find automow_maps)/maps/test.yaml" />
+
+    <node pkg="automow_maps" type="field_publisher.py" name="field_publisher"
+          output="screen" >
+        <rosparam command="load" param="field_polygon"
+        		  file="$(arg field_file)" />
+        <param name="field_frame_id" value="odom" />
+    </node>
+</launch>

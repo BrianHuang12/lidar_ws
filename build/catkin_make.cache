@@ -1,0 +1,2 @@
+automow_maps:automow_node:automow_planning:diff_wheeled_robot_gazebo:differential-drive:egoat_2dnav:follow_waypoints:mastering_ros_robot_description_pkg:rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/odroid/lidar_ws/devel -DCMAKE_INSTALL_PREFIX=/home/odroid/lidar_ws/install -G Unix Makefiles

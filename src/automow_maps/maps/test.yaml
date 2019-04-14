@@ -1,0 +1,5 @@
+- {easting: '0', fix_type: '4', northing: '0'}
+- {easting: '0', fix_type: '4', northing: '50'}
+- {easting: '50', fix_type: '4', northing: '0'}
+- {easting: '50', fix_type: '4', northing: '50'}
+
